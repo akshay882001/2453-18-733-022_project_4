@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<title>Title</title>
+		<style>
+			textarea {
+				height: 100px;
+    			width: 500px;
+				background-color: deepskyblue;
+				color: cornsilk;
+				text-align: center;
+				font-size: 20px;
+			}
+			input[type="text"] {
+				height: 40px;
+    			width: 300px;
+				background-color: deepskyblue;
+				color: cornsilk;
+				text-align: center;
+				font-size: 20px;
+			}
+			input[type="date"]{
+				height: 40px;
+    			width: 300px;
+				background-color: deepskyblue;
+				color: cornsilk;
+				text-align: center;
+				font-size: 20px;
+			}
+			label {
+				font-size: 25px;
+			}
+			font{
+				font-size: 25px;
+				color: blue;
+			}
+		</style>
+	</head>
+	<body style="background-color:#00FFFF">
+		<center>
+			<form action="/epass" method="POST">
+				<h1 style="color:#000080">Welecome To Epass Registration System</h1><br>
+				<font>First Name:</font>
+				<input  size="30" type="text" name="fname" placeholder="First Name"required><br><br>
+				<font>Last Name:</font>
+				<input  type="text" name="lname" placeholder="Last Name"required><br><br>
+				<font>Email:</font>
+				<input  type="text" name="email" placeholder="Email"required><br><br>
+				<font>Source State:</font>
+				<input  type="text" name="sourceST" placeholder="Source state"required><br><br>
+				<font>Source District:</font>
+				<input  type="text" name="sourceDT" placeholder="Source district"required><br><br>
+				<font>Destination State:</font>
+				<input  type="text" name="destST" placeholder="Destination state"required><br><br>
+				<font>Destination District:</font>
+				<input  type="text" name="destDT" placeholder="Destination district"required><br><br>
+				<font>Phone Number:</font>
+				<input  type="text" name="phoneNumber" placeholder="Phone number"required><br><br>
+				<font>Id Proof:</font>
+				<input  type="text" name="idProof" placeholder="ID proof number"required><br><br>
+				<font>Date:</font>
+				<input  type="date" name="trip" placeholder="Date of travel" required><br><br>
+				<font>Reason:</font>
+				<textarea name="message" placeholder="Your Reason"required></textarea><br><br>
+				<input type ="submit" value="Login">
+			</form>
+		</center>
+	</body>
+</html>
