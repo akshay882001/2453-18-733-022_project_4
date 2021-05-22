@@ -2,8 +2,8 @@ import requests
 from flask import Flask, render_template, request
 from twilio.rest import Client
 #import requests_cache
-account_sid="AC1418154aa86c33cd709246c3359f216f"
-auth_token="8b3515614f8c09d97704477fc313d5f7"
+account_sid=""
+auth_token=""
 client=Client(account_sid,auth_token)
 app = Flask(__name__, static_url_path='/static')
 @app.route('/')
